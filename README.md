@@ -100,10 +100,5 @@ Card voiture_card(String title, String url, double width, double height){
   );
 }
 ```
-
-### 5. Contenu Textuel
-- L'application affiche le titre "ICON&Card" dans l'`AppBar`.
-- Chaque `voiture_card` affiche un titre dynamique passé en paramètre (ex: "MundiaCart", "AUTRE_TEXT"). Le style du texte est défini par `TextStyle` pour la taille de la police (`fontSize: 20`), la famille de la police (`fontFamily: "mundia1"`) et la couleur (`color: Colors.white70`).
-
 ## Conclusion
 Ce TP démontre la création d'une interface utilisateur Flutter simple avec des widgets réutilisables personnalisés (`voiture_card`), la gestion des assets pour les images et les polices, et des techniques de mise en page de base en utilisant `ListView`, `Column`, `Container` et `SizedBox`. Les concepts de `BoxDecoration` et `TextStyle` ont été utilisés pour la décoration visuelle.
